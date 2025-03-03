@@ -2,7 +2,7 @@
 
 @plugin "daisyui" {
 
-  themes: retro --default, forest --prefersdark;
+  themes: halloween --default, forest --prefersdark;
 
 }
 

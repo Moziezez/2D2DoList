@@ -1,11 +1,10 @@
 import Link from "next/link";
-import ProductCard from "./components/ProductCard";
+import LoginField from "./components/LoginField";
 
 export default function Home() {
   return (
-    <main><h1>Hello</h1>
-      <Link href="/users">Users</Link>
-      <ProductCard></ProductCard>
+    <main><h1>Liste anzeigen für:</h1>
+      <LoginField></LoginField>
     </main>
   );
 }
